@@ -2,7 +2,7 @@
   "name": "MarathoneReactPro",
   "version": "1.0.0",
   "scripts": {
-    "globals" : "npm i -g cross-env",
+    "globals": "npm i -g cross-env",
     "build:dev": "cross-env NODE_ENV=development & webpack --config webpack.config.js",
     "build:prod": "cross-env NODE_ENV=production & webpack --config webpack.config.js",
     "start": "cross-env NODE_ENV=development & webpack-dev-server"
@@ -12,12 +12,18 @@
   "author": "Lyova lyovaavetisyan31@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.3.1",
     "cross-env": "^7.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "css-loader": "^5.2.4",
     "html-webpack-plugin": "4",
+    "node-sass": "5.0.0",
+    "sass": "^1.32.12",
+    "sass-loader": "10.1.1",
+    "style-loader": "^2.0.0",
     "ts-loader": "8.2.0",
     "typescript": "^4.2.4",
     "webpack": "4.44.2",
