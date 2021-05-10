@@ -6,7 +6,8 @@ import cn from 'cl'
 const App = () => {
     return (
         <div className={cn(s.header, 'custom')}>
-            A new component, some changes
+           Я не знал, что нельзя было коммитить до этого, и все нужно было делать в другой ветке.
+           (Изменения ради пулл реквеста)
         </div>
     );
 }
