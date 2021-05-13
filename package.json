@@ -1,5 +1,5 @@
 {
-  "name": "MarathoneReactPro",
+  "name": "MarathonReactPro",
   "version": "1.0.0",
   "scripts": {
     "globals": "npm i -g cross-env",
@@ -18,7 +18,11 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
     "css-loader": "^5.2.4",
+    "css-modules-typescript-loader": "^4.0.1",
     "html-webpack-plugin": "4",
     "node-sass": "5.0.0",
     "sass": "^1.32.12",
